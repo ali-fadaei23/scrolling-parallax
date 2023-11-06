@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/scrolling-parallax/static/css/main.56619b37.css",
+    "main.js": "/scrolling-parallax/static/js/main.80d5aa03.js",
+    "static/media/wandhen.regular.ttf": "/scrolling-parallax/static/media/wandhen.regular.cabb9258b76801118cad.ttf",
+    "static/media/2.jpg": "/scrolling-parallax/static/media/2.ae32bef8908eafcc829b.jpg",
+    "static/media/1.jpg": "/scrolling-parallax/static/media/1.40d8bc75456bcec14d72.jpg",
+    "static/media/3.jpg": "/scrolling-parallax/static/media/3.5aacb7a32510924610a4.jpg",
+    "index.html": "/scrolling-parallax/index.html",
+    "main.56619b37.css.map": "/scrolling-parallax/static/css/main.56619b37.css.map",
+    "main.80d5aa03.js.map": "/scrolling-parallax/static/js/main.80d5aa03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56619b37.css",
+    "static/js/main.80d5aa03.js"
+  ]
+}
