@@ -63,7 +63,7 @@ const gsapInit = () => {
 const sections = [
   { title: "Scrolling", image: image1 },
   { title: "Infinite", image: image2 },
-  { title: "Website", image: image3 },
+  { title: "Mountains", image: image3 },
 ];
 
 const Parallax = () => {
@@ -81,7 +81,13 @@ const Parallax = () => {
               className="bg"
               style={{ backgroundImage: `url(${section.image})` }}
             >
-              <h2>{section.title}</h2>
+              <h2
+                style={{
+                  color: section.title === "Scrolling" ? "#202020" : "#fff",
+                }}
+              >
+                {section.title}
+              </h2>
             </div>
           </div>
         </div>
