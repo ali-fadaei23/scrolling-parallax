@@ -47,6 +47,17 @@ const gsapInit = () => {
     ).fromTo(images[index], { yPercent: 15 * dFactor }, { yPercent: 0 }, 0);
     currentIndex = index;
   };
+
+  Observer.create({
+    type: "wheel,touch,pointer",
+    wheelSpeed: -1,
+    onDown: () => !animating && gotoSection(currentIndex - 1, -1),
+    onUp: () => !animating && gotoSection(currentIndex + 1, 1),
+    tolerance: 10,
+    preventDefault: true,
+  });
+
+  gotoSection(0, 1);
 };
 
 const sections = [
