@@ -55,11 +55,12 @@ const sections = [
   { title: "Website", image: image3 },
 ];
 
-function Parallax() {
+const Parallax = () => {
   useEffect(() => {
     gsap.registerPlugin(Observer);
     gsapInit();
   }, []);
+
   return sections.map((section) => {
     return (
       <section key={section.title}>
@@ -76,6 +77,6 @@ function Parallax() {
       </section>
     );
   });
-}
+};
 
 export default Parallax;
